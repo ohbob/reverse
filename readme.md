@@ -2,13 +2,12 @@
 # install docker-compose
 
 ```
-clone git https://github.com/ohbob/reverse.git
+git clone https://github.com/ohbob/reverse.git
 ``` 
 ```
-cd backend
+cd reverse/backend
 docker-compose up -d
-cd ..
-cd proxy
+cd ../proxy
 docker-compose up -d
 ```
 
