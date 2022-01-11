@@ -11,6 +11,8 @@ cd ../proxy
 docker-compose up -d
 ```
 
+Replace 1.1.1.1 with an actuall server ip.
+
 Open up your browser and go to http://1.1.1.1:81/
 login with the default admin user:
 ```angular2html
