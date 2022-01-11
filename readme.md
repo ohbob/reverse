@@ -11,12 +11,14 @@ cd ../proxy
 docker-compose up -d
 ```
 
-Open up your browser and go to http://localhost:81/
+Open up your browser and go to http://serverip:81/
 login with the default admin user:
 ```angular2html
 Email:    admin@example.com
 Password: changeme
 ```
 change the password and setup the backend proxy as in example bellow
+
+ps: point your A record for the domain to the ip address of the reverse proxy and fill out the rest of the fields
 
 ![proxy setup image](/proxy/proxy-setup.png)
